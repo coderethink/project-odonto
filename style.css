@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --white: #fff;
+    --dark: #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-flow: wrap;
+    gap: 28px;
+    background: linear-gradient(#000000, rgba(73, 7, 18, 0.829));
+    border-radius: 0px 0px 22px 22px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 30px;
+    height: 30px;
+    padding: 50px;
+
+}
+
+.link a:hover {
+    color: rgba(74, 183, 202, 0.87);
+}
+
+a {
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 8px;
+    font-style: bold;
+    color: rgb(240, 243, 245);
+}
+
+img {
+    display: block;
+    width: 200px;
+    height: auto;
+    border-radius: 53px 6px;
+}
+
+.photo-primary {
+    display: block;
+    padding: 25px;
+}
+
+.introdution h1 {
+    display: flex;
+    justify-content: center;
+    padding: 34px;
+}
+
+h6 {
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif; 
+    display: flex;
+    justify-content: Flex-start;
+    margin-left: 549px;
+    margin-top: -9px;
+}
+
+hr {
+    width: 989px;
+    margin-left: 340px;
+    margin-top: 25px;
+
+}
+
+footer {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Lato;
+    transition: transform 0.3s ease;
+}
+
+footer a {
+    color: #000000;
+    font-size: 17px;
+}
+footer a:hover {
+    color: rgb(2, 2, 2);
+}
+
+
+.Services h2 {
+    display: flex;
+    justify-content:center;
+    margin-left: 313px;
+    margin-top: -204px;
+    font-family: Lato;
+
+}
+
+.Services li {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 316px;
+    margin-top: 33px;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
